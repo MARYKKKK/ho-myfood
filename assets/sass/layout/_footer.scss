@@ -9,7 +9,6 @@
 
 
 .logo-footer {
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -19,11 +18,9 @@
 
 
 .img-logo {
-
+  
   width: 173px;
   background-size: 100%;
-
-
   background-repeat: no-repeat;
   background-position: center center;
   overflow: hidden;
@@ -48,6 +45,7 @@ path {
   color: #ffff;
   width: 100%;
   padding: 45px;
+  
 
   i {
     padding: 5px;
@@ -55,22 +53,29 @@ path {
   }
 
   a {
+    
     color: white;
   }
 }
 
 
 .listes-services {
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding: 0;
   margin: 0;
+  
 
   li {
+    
     width: 100%
   }
+}
+li.mail a {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
